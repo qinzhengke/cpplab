@@ -26,6 +26,7 @@
     * [[特 性] 实验6：为什么需要右值引用？](https://github.com/qinzhengke/cpplab/blob/main/doc/language/rvalue.md)
     * [[特 性] 实验7：重写（override）操作一定要虚函数形参和返回值完全一样吗？](https://github.com/qinzhengke/cpplab/blob/main/doc/language/special_override.md)
     * [[特 性] 实验8：模板参数包（template paramter pack，可变长模板参数）的使用场景是什么？](https://github.com/qinzhengke/cpplab/blob/main/doc/language/template_parameter_pack.md)
+    * [[规 则] 实验xx：典型卡死场景：除以0语句会导致程序卡住？可能是多线程在搞鬼。
     * [[规 则] 实验9：构造与析构的执行顺序是什么？](https://github.com/qinzhengke/cpplab/blob/main/doc/language/constructor_deconstructor_order.md)
     * [[规 则] 实验10：什么是名字隐藏（name hiding）？](https://github.com/qinzhengke/cpplab/blob/main/doc/language/name_hiding.md)
     * [[规 则] 实验11：有了编译器返回值优化（RVO），为何还需要右值引用？](https://github.com/qinzhengke/cpplab/blob/main/doc/language/rvo_limit.md)
