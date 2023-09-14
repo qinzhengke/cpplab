@@ -60,3 +60,14 @@ ID: 2, GPA: 1.7, grade: D, name: Ralph Wiggum
 ID: 3, GPA: 0.6, grade: F, name: Bart Simpson
 ```
 
+## 隐式推导
+
+在 c++17 以前，构造std::pair/std::tuple时必须指定数据类型或使用std::make_pair/std::make_tuple函数，c++17 为std::pair/std::tuple新增了推导规则，可以不再显示指定类型。
+
+```cpp
+// pre c++17
+std::pair<int, std::string> p1{3.14, "pi"s};
+auto p1 = std::make_pair(3.14, "pi"s);
+// c++17
+std::pair p3{3.14, "pi"s};
+```
